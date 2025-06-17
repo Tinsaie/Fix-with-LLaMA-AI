@@ -7,9 +7,9 @@ A simple AI-powered code fixer using a local LLM (like CodeLlama). This app allo
 - Tkinter-based graphical user interface (GUI)
 - Input and fix prompts for code
 - Integration with local LLMs via `ollama`
-
-## Project Structure
-
+---
+## Project Structure in folder
+```
 FIX_WITH_LLMA AI/
 │
 ├── app.py                # GUI using tkinter
@@ -18,3 +18,4 @@ FIX_WITH_LLMA AI/
 │   └── fix_prompt.txt    # Template for the AI prompt
 ├── requirements.txt      # Python libraries needed
 └── README.md             # This file
+```
